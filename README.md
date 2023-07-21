@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [GitHub Pages](hhttps://aref-akminasi.github.io/dots-carousel/)
+- Live Site URL: [GitHub Pages](https://aref-akminasi.github.io/dots-carousel/)
 
 ## My process
 
