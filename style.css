@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 243, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0;
+  height: 100vh;
+  padding: 50px;
+}
+
+.img-container {
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-angle-right,
+.fa-angle-left {
+  font-size: 32px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+img.displayed {
+  display: inline;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.selected {
+  background-color: rgb(0, 0, 0);
+}
