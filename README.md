@@ -1,4 +1,4 @@
-# Risk Dice Roller
+# Dots Carousel
 
 This is a self-designed and self-built project. To practice building a carousel with double navigation (arrows, and dots)
 
